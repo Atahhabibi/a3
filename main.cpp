@@ -1,4 +1,5 @@
 #include <iostream>
+#include <tuple>  // Include <tuple> for std::tuple
 #include "MemoryManager.h"
 #include "FirstFitMemoryManager.h"
 #include "BestFitMemoryManager.h"
@@ -20,7 +21,10 @@ int main() {
     for (int i = 0; i < total_requests; ++i) {
         bool is_allocation = rand() % 2;
         if (is_allocation) {
-            auto [process_id, num_units] = request_generator.generate_allocation_request();
+            std::tuple<int, int> allocation_request = request_generator.generate_allocation_request();  // Use std::tuple to store the return value
+            int process_id = std::get<0>(allocation_request);  // Use std::get to access elements
+            int num_units = std::get<1>(allocation_request);
+
             int first_fit_nodes = first_fit_manager.allocate_mem(process_id, num_units);
             int best_fit_nodes = best_fit_manager.allocate_mem(process_id, num_units);
 
