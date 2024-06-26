@@ -1,5 +1,13 @@
 #include "Statistics.h"
 
+/*
+ * Developed by:
+ * Name: Atah Habibi
+ *   - Username: cssc4466
+ * Name: Matthew Press
+ *   - Username: cssc4443
+ */
+
 Statistics::Statistics() : total_requests(0), allocation_denied(0), total_nodes_traversed(0), total_fragments(0) {}
 
 void Statistics::print_statistics(const std::string& technique) {

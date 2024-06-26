@@ -4,6 +4,14 @@
 #include <iostream>
 #include <string>
 
+/*
+ * Developed by:
+ * Name: Atah Habibi
+ *   - Username: cssc4466
+ * Name: Matthew Press
+ *   - Username: cssc4443
+ */
+
 struct Statistics {
     int total_requests;
     int allocation_denied;

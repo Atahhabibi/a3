@@ -1,5 +1,13 @@
 #include "FirstFitMemoryManager.h"
 
+/*
+ * Developed by:
+ * Name: Atah Habibi
+ *   - Username: cssc4466
+ * Name: Matthew Press
+ *   - Username: cssc4443
+ */
+
 FirstFitMemoryManager::FirstFitMemoryManager(int total_size, int unit_size) : MemoryManager(total_size, unit_size) {}
 
 int FirstFitMemoryManager::allocate_mem(int process_id, int num_units) {

@@ -1,5 +1,13 @@
 #include "RequestGenerator.h"
 
+/*
+ * Developed by:
+ * Name: Atah Habibi
+ *   - Username: cssc4466
+ * Name: Matthew Press
+ *   - Username: cssc4443
+ */
+
 RequestGenerator::RequestGenerator(int total_requests) : total_requests(total_requests) {
     srand(time(0));
 }

@@ -1,5 +1,14 @@
 #include "MemoryManager.h"
 
+
+/*
+ * Developed by:
+ * Name: Atah Habibi
+ *   - Username: cssc4466
+ * Name: Matthew Press
+ *   - Username: cssc4443
+ */
+
 MemoryBlock::MemoryBlock(int start, int size, int process_id) :
     start(start), size(size), process_id(process_id) {}
 

@@ -3,6 +3,15 @@
 
 #include <list>
 
+
+/*
+ * Developed by:
+ * Name: Atah Habibi
+ *   - Username: cssc4466
+ * Name: Matthew Press
+ *   - Username: cssc4443
+ */
+
 class MemoryBlock {
 public:
     int start;

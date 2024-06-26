@@ -5,6 +5,15 @@
 #include <cstdlib>
 #include <ctime>
 
+
+/*
+ * Developed by:
+ * Name: Atah Habibi
+ *   - Username: cssc4466
+ * Name: Matthew Press
+ *   - Username: cssc4443
+ */
+
 class RequestGenerator {
     int total_requests;
     std::vector<int> process_ids;

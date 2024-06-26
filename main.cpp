@@ -6,6 +6,15 @@
 #include "RequestGenerator.h"
 #include "Statistics.h"
 
+
+/*
+ * Developed by:
+ * Name: Atah Habibi
+ *   - Username: cssc4466
+ * Name: Matthew Press
+ *   - Username: cssc4443
+ */
+
 int main() {
     const int total_memory = 256; // in KB
     const int unit_size = 2; // in KB

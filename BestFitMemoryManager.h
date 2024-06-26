@@ -3,6 +3,14 @@
 
 #include "MemoryManager.h"
 
+/*
+ * Developed by:
+ * Name: Atah Habibi
+ *   - Username: cssc4466
+ * Name: Matthew Press
+ *   - Username: cssc4443
+ */
+
 class BestFitMemoryManager : public MemoryManager {
 public:
     BestFitMemoryManager(int total_size, int unit_size);
